@@ -1,0 +1,19 @@
+{
+  "name": "vue-chat_server",
+  "description": "Server for vue-chat by socket.io",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "ISC",
+  "author": "AlexKomz",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1"
+  }
+}
