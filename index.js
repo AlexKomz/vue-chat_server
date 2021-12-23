@@ -3,7 +3,7 @@ import http from "http";
 import crypto from "crypto";
 import {Server} from "socket.io";
 
-const PORT = 80;
+const PORT = process.env.PORT || 80;
 
 const index = express();
 
