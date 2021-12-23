@@ -7,7 +7,7 @@
   "author": "AlexKomz",
   "type": "module",
   "scripts": {
-    "start": "node .",
+    "start": "NODE_ENV=production node .",
     "serve": "nodemon ."
   },
   "devDependencies": {
