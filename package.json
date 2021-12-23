@@ -7,8 +7,8 @@
   "author": "AlexKomz",
   "type": "module",
   "scripts": {
-    "start": "set NODE_ENV=production&& node .",
-    "serve": "nodemon ."
+    "start": "node index.js",
+    "serve": "nodemon index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
