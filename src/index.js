@@ -11,7 +11,7 @@ const index = express();
 const server = http.createServer(index);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:8080",
+    origin: "https://alexkomz.github.io/vue-chat_client",
   }
 });
 
