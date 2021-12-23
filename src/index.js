@@ -4,7 +4,7 @@ import http from "http";
 import crypto from "crypto";
 import {Server} from "socket.io";
 
-const PORT = config.get('port') || 8084;
+const PORT = config.get('port') || 80;
 
 const index = express();
 
