@@ -1,4 +1,0 @@
-{
-  "port": 80,
-  "baseUrl": "https://vue-chat-service.herokuapp.com/:80"
-}

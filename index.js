@@ -1,10 +1,9 @@
-import config from "config";
 import express from "express";
 import http from "http";
 import crypto from "crypto";
 import {Server} from "socket.io";
 
-const PORT = config.get('port') || 80;
+const PORT = 80;
 
 const index = express();
 
