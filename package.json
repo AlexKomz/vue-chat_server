@@ -2,13 +2,13 @@
   "name": "vue-chat_server",
   "description": "Server for vue-chat by socket.io",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "ISC",
   "author": "AlexKomz",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node /src",
-    "serve": "nodemon /src"
+    "start": "node .",
+    "serve": "nodemon ."
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
